@@ -12,3 +12,40 @@ func main() {
     fmt.Println(hypot(3, 4))
 }
 ---------------------------------------------------
+
+#43 함수 클로져 (Function closures)
+
+함수는 클로저(Full closures)입니다.
+---------------------------------------------------
+** 클로저 **
+func intSeq() func() int {
+	i := 0
+	return func() int {
+		i += 1
+		return i
+	}
+}
+
+// 아래 세 라인은 같은 클로저로, i를 공유함
+nextInt := intSeq()
+fmt.Println(nextInt())  // 1
+fmt.Println(nextInt())  // 2
+fmt.Println(nextInt())  // 3
+// 새로운 클로저 생성
+newInts := intSeq()
+fmt.Println(newInts())  // 1
+---------------------------------------------------
+
+#45, 46 스위치 (Switdch)
+
+일반적인 switch case와 비슷하나, break 가 필요없다.
+break 를 하고싶지 않을 때엔 fallthrough 를 사용한다.
+---------------------------------------------------
+switch c := 'c'; c {
+case 'c':
+    fmt.Println("c is c")
+    fallthrough
+case 'd':
+    fmt.Println("c is c or d")
+}
+---------------------------------------------------
