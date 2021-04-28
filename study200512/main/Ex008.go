@@ -8,7 +8,7 @@ import (
 
 type Image struct{
 	width int
-    height int
+	height int
 }
 
 // 사용할 컬러 모델 지정
