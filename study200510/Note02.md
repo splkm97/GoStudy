@@ -1,4 +1,4 @@
-#07 함수 (1)
+# 07 함수 (1)
 
 C/C++/Java 와 다르게 함수 매개변수 타입을 뒤에 둔다
 
@@ -19,7 +19,7 @@ func add(x int, y int) int {
 }
 ```
 
-#08 함수 (2)
+# 08 함수 (2)
 
 둘 이상의 매개변수가 같은 타입일때
 
@@ -36,7 +36,7 @@ func add(x, y int) int {
 }
 ```
 
-#09 여러 개의 결과 (Multiple results)
+# 09 여러 개의 결과 (Multiple results)
 
 여러 개의 리턴값을 반환 가능하다.
 
@@ -51,7 +51,7 @@ func main() {
 }
 ```
 
-#10 이름이 정해진 결과 (Named results)
+# 10 이름이 정해진 결과 (Named results)
 
 반환값에 이름을 붙여 변수처럼 사용 가능
 ```go
@@ -62,7 +62,7 @@ func split(sum int) (x, y int) {
 }
 ```
 
-#11 변수 (Variables)
+# 11 변수 (Variables)
 
 var 을 이용해 변수 선언
 
@@ -72,7 +72,7 @@ var x, y, z int
 var a, b, c bool
 ```
 
-#12 변수 초기화
+# 12 변수 초기화
 
 변수를 선언과 동시에 초기화 가능하다.
 
