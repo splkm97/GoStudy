@@ -1,10 +1,10 @@
-#04 패키지 (Packages)
+# 04 패키지 (Packages)
 
 Go는 디렉토리 경로 마지막 이름이 패키지 이름이다.
 
 import를 여러 개 사용할 때 두가지 방식이 있다
 
-#05 임포트 (Imports)
+# 05 임포트 (Imports)
 ```go
 import (
   "fmt"
@@ -30,7 +30,7 @@ Nextafterf(), Nextafterl()을 이용해 float와 long형 실수도 가능.
 
 ----------------------------------------------------------------------
 
-#06 익스포트 (Exported names)
+# 06 익스포트 (Exported names)
 
 패키지 import 시 패키지에서 외부로 export한 것들(메소드, 변수, 상수 등)에 접근가능
 
